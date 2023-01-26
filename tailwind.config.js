@@ -8,6 +8,10 @@ module.exports = {
         raleway: ["Raleway", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+
+      animation:{
+        'spin-3s': 'spin 3s linear infinite',
+      }
     },
   },
   screens: {
