@@ -44,7 +44,7 @@ const gallery = () => {
       {galleryImages.map((item, index)=>{
         return (
             <div className="pics" key={index} onClick={() => getImg(item.title)}>
-              <Image src={item.title} alt={item.id} className=" hover:bg-gray-300 bg-gray-100 shadow-xl w-[100%]"/>
+              <Image src={item.title} alt={item.id} className=" hover:bg-gray-300 bg-gray-100 shadow-xl"/>
             </div>
         )
       })}
