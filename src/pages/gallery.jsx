@@ -38,7 +38,8 @@ const gallery = () => {
             <AiOutlineCloseCircle onClick={() => setModel(false)} />
           </div>
 
-          <div className="gallery px-[30px] sm:px-16 md:px-40 ">
+          {/* px-[30px] sm:px-16 md:px-40 */}
+          <div className="gallery xl:mx-40">
             {galleryImages.map((item, index) => {
               return (
                 <div
@@ -49,7 +50,7 @@ const gallery = () => {
                   <Image
                     src={item.title}
                     alt={item.id}
-                    className=" hover:bg-gray-400 bg-gray-300 shadow-xl w-[100%]"
+                    className="w-[100%] h-auto sm:w-[300px] sm:h-[300px] hover:bg-gray-400 object-contain bg-gray-300 shadow-xl "
                   />
                 </div>
               );

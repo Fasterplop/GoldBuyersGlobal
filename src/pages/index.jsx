@@ -7,7 +7,7 @@ import Hero from "@/components/Hero";
 import Card from "@/components/Card";
 import Banner from "@/components/Banner";
 import Testimonials from "@/components/Testimonials";
-import { heroImage, ring, necklace } from "@/images";
+import { heroImage, ring, necklace, ring2 } from "@/images";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { HiPhoneIncoming } from "react-icons/hi";
 
@@ -30,11 +30,11 @@ const index = () => {
           <div className="relative flex justify-center w-screen h-[400px] mx-auto">
             <div className="absolute -top-[40px] flex max-w-5xl mx-auto gap-6 group">
               <Card
-                image={heroImage}
-                productName="Diamond Necklace"
+                image={ring2}
+                productName="Diamond Ring"
                 productDesc="text description Lorem ipsum dolor sit amet, consectetur adipiscing
           elit"
-                className="hidden sm:block"
+                className=" hidden sm:block"
               />
               <Card
                 image={ring}
