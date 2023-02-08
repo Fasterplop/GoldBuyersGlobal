@@ -6,7 +6,7 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 import { galleryImages } from "@/constants/gallery";
 import { HiPhoneIncoming } from "react-icons/hi";
 import Link from "next/link";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const gallery = () => {
   const [model, setModel] = useState(false);
@@ -30,7 +30,7 @@ const gallery = () => {
 
       <Layout>
         <section id="Gallery" className="sm:px-16 px-6 text-justify py-6">
-          <Fade duration={2000}>
+          <Fade triggerOnce="true" duration="2000">
             <h1 className="text-center font-raleway font-bold text-[20px] sm:text-[28px] m-2 ">
               Gallery
             </h1>

@@ -5,7 +5,7 @@ import Image from "next/image";
 import { heroImage } from "@/images";
 import Head from "next/head";
 import { HiPhoneIncoming } from "react-icons/hi";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const layaway = () => {
   return (
@@ -21,7 +21,7 @@ const layaway = () => {
 
       <Layout>
         <section id="Layaway" className="sm:px-16 px-6 text-justify py-6">
-          <Fade duration={2000}>
+          <Fade triggerOnce="true" duration="2000">
             <div className="lg:w-[60%] mx-auto">
               <h1 className="text-center text-[20px] sm:text-[28px] font-raleway m-2 font-bold">
                 Layaway

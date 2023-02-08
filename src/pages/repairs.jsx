@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { heroImage } from "@/images";
 import { HiPhoneIncoming } from "react-icons/hi";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const repairs = () => {
   return (
@@ -24,7 +24,7 @@ const repairs = () => {
           id="Repairs"
           className="flex flex-col text-center w-screen overflow-hidden "
         >
-          <Fade duration={2000}>
+          <Fade triggerOnce="true" duration="2000">
             <div className=" my-16 flex sm:flex-row-reverse flex-col justify-center">
               <div className=" lg:pl-20 px-6 font-montserrat text-justify mb-6 lg:text-start min-w-[350px] max-w-[740px]">
                 <h1 className="pb-2 font-bold font-raleway text-[20px] text-center sm:text-[28px] text-black">

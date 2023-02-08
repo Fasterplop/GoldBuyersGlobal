@@ -10,7 +10,7 @@ import Testimonials from "@/components/Testimonials";
 import { heroImage, ring, necklace, ring2 } from "@/images";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { HiPhoneIncoming } from "react-icons/hi";
-import Bounce from "react-reveal/Bounce";
+import { Fade } from "react-awesome-reveal";
 
 const index = () => {
   return (
@@ -28,7 +28,7 @@ const index = () => {
           <Hero />
 
           {/* Gallery Section (Not Page) */}
-          <Bounce top duration={1000}>
+          <Fade direction="down" triggerOnce="true">
             <section className="relative flex justify-center w-screen h-[400px] mx-auto">
               <div className="absolute -top-[40px] flex max-w-5xl mx-auto gap-6 group">
                 <Card
@@ -61,11 +61,11 @@ const index = () => {
                 {<AiOutlineArrowRight className="text-2xl ml-6 items-center" />}
               </Link>
             </section>
-          </Bounce>
+          </Fade>
 
           {/* Repairs Section (Not Page) */}
 
-          <Bounce left duration={2000}>
+          <Fade direction="left" duration="2000" triggerOnce="true">
             <section
               className=" flex justify-center w-screen min-h-[500px] max-h-[940px] bg-gradient-to-r from-[#522b15]
     via-[#906c56] to-[#d9c577] "
@@ -112,11 +112,11 @@ const index = () => {
                 </div>
               </div>
             </section>
-          </Bounce>
+          </Fade>
 
           {/* About Us Section (Not Page) */}
 
-          <Bounce right duration={2000}>
+          <Fade direction="right" duration="2000" triggerOnce="true">
             <section className="flex justify-center w-screen min-h-[500px] max-h-[940px] ">
               <div className=" my-16 flex lg:flex-row-reverse flex-col justify-center">
                 <div className=" lg:pl-20 px-6  pt-6 text-black font-montserrat text-center mb-16 lg:text-start min-w-[350px] max-w-[500px]">
@@ -145,19 +145,19 @@ const index = () => {
                 </div>
               </div>
             </section>
-          </Bounce>
+          </Fade>
 
           {/* Banner */}
 
-          <Bounce duration={2000}>
+          <Fade duration="2000" triggerOnce="true">
             <Banner />
-          </Bounce>
+          </Fade>
 
           {/* Testimonials */}
 
-          <Bounce bottom>
+          <Fade direction="up" duration="1500" triggerOnce="true">
             <Testimonials />
-          </Bounce>
+          </Fade>
 
           {/* call us text */}
           <div className=" z-50 fixed bottom-10 sm:bottom-[130px] right-10 sm:right-[62px] animate-bounce sm:block hidden ">
