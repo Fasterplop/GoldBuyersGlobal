@@ -31,9 +31,10 @@ const about = () => {
                 opportunity for people to cash in on their unwanted jewelry. So
                 in 2011 we decided to take our 30 plus years of experience in
                 the jewelry industry and establish a company that is personal,
-                private, and honest.
+                private and honest.
                 <span className="font-semibold">
-                  A company that is easy to do business with.
+                  {" "}
+                  A company that is easy to do business with.{" "}
                 </span>
                 No gimmicks!
               </p>
@@ -65,7 +66,7 @@ const about = () => {
 
         {/* call button */}
         <div className=" z-50 animate-bounce fixed bottom-10 sm:bottom-20 right-10 sm:right-20">
-          <Link href="tel:786-498-9035">
+          <Link href="tel:3059155896">
             <HiPhoneIncoming className="text-lg sm:scale-[5] scale-[3] text-green-600" />
           </Link>
         </div>

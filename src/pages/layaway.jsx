@@ -34,14 +34,14 @@ const layaway = () => {
                 down payment. This way, you can secure the piece you want and
                 pay for it over time without having to make a full payment
                 upfront. Our layaway program is easy to use and flexible, with a
-                payment schedule that can be tailored to meet your needs.
-                Bargain prices with extended time to pay, you can own the
+                payment schedule that can be tailored to meet your needs. With
+                bargain prices and with extended time to pay, you can own the
                 jewelry you desire.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row justify-center my-6 items-center">
-              <Link href="/repairs">
+              <Link href="tel:3059155896">
                 <div className="mr-4 hover:scale-105  items-center my-2  pt-[4px]  text-[14px] sm:text-[16px] text-center font-raleway  w-[200px] h-[28px] sm:h-[36px] bg-[#fddc5c] text-black font-semibold rounded-xl">
                   Call Us
                 </div>
@@ -53,12 +53,13 @@ const layaway = () => {
               </Link>
             </div>
 
-            <Image
+            <div className="h-[99px]"></div>
+            {/* <Image
               className="mx-auto"
               src={heroImage}
               width={600}
               height={200}
-            />
+            /> */}
           </Fade>
         </section>
 
@@ -71,7 +72,7 @@ const layaway = () => {
 
         {/* call button */}
         <div className=" z-50 animate-bounce fixed bottom-10 sm:bottom-20 right-10 sm:right-20">
-          <Link href="tel:786-498-9035">
+          <Link href="tel:3059155896">
             <HiPhoneIncoming className="text-lg sm:scale-[5] scale-[3] text-green-600" />
           </Link>
         </div>

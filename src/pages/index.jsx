@@ -7,7 +7,7 @@ import Hero from "@/components/Hero";
 import Card from "@/components/Card";
 import Banner from "@/components/Banner";
 import Testimonials from "@/components/Testimonials";
-import { heroImage, ring, necklace, ring2 } from "@/images";
+import { heroImage, ring, necklace, ring2, jeweler } from "@/images";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { HiPhoneIncoming } from "react-icons/hi";
 import { Fade } from "react-awesome-reveal";
@@ -40,7 +40,7 @@ const index = () => {
                 />
                 <Card
                   image={ring}
-                  productName="Gold Ring"
+                  productName="Ring"
                   productDesc="text description Lorem ipsum dolor sit amet, consectetur adipiscing
           elit"
                 />
@@ -78,10 +78,14 @@ const index = () => {
                     Repair Services
                   </h1>
                   <p className="leading-[28px] text-[20px] text-[#e1e1e1b3]">
-                    We can repair most of your treasured jewelry right in our
-                    stores including rings, necklaces, earrings, bracelets, and
+                    We have the ability to perform many repair services, bring
+                    us your jewelry and watches and we will provide a{" "}
+                    <strong>FREE</strong> estimate for any repairs necessary.
+                    Wether the work is big or small we've got you covered.
+                    {/* We can repair most of your treasured jewelry right in our
+                    stores including rings, necklaces, earrings, bracelets and
                     watches. Whether your job is big or small, we've got you
-                    covered.
+                    covered. */}
                   </p>
 
                   <div className="flex flex-col sm:flex-row mt-4 sm:items-start items-center">
@@ -102,7 +106,7 @@ const index = () => {
                   <div className=" pb-6 pl-6 border-b-4 border-l-4 border-[#FFD700]">
                     <div className="w-[350px] sm:w-[400px]">
                       <Image
-                        src={heroImage}
+                        src={jeweler}
                         width={400}
                         height={400}
                         className="bg-gradient-to-r from-[#3C3B3F] to-[#605C3C]"
@@ -121,14 +125,15 @@ const index = () => {
               <div className=" my-16 flex lg:flex-row-reverse flex-col justify-center">
                 <div className=" lg:pl-20 px-6  pt-6 text-black font-montserrat text-center mb-16 lg:text-start min-w-[350px] max-w-[500px]">
                   <h1 className="pb-2 font-semibold text-[32px]">
-                    Full-Service Jewelrer
+                    Full-Service Jeweler
                   </h1>
-                  <p className="leading-[28px] text-[20px] text-black mb-2">
+                  <p className="leading-[28px] text-[20px] text-black mb-2 ">
                     Welcome to <strong>Gold Buyers Global</strong>, where we
-                    specialize in buying, selling, and repairing jewelry. Our
-                    team is led by <strong>Jose Mejia</strong>, a certified and
-                    experienced jewelrer who has been working in the industry
-                    for over 40 years.
+                    specialize in buying, selling and repairing jewelry. Our
+                    team is led by <strong>Jose Mejia</strong>, an experienced
+                    jeweler who has been working in the industry for over 40
+                    years. Wether you are looking to sell or buy jewelry you can
+                    count on us to provide great service and value.
                   </p>
                   <Link href="/about" className=" underline font-bold ">
                     See all services
@@ -168,7 +173,7 @@ const index = () => {
 
           {/* call button */}
           <div className=" z-50 animate-bounce fixed bottom-10 sm:bottom-20 right-10 sm:right-20">
-            <Link href="tel:786-498-9035">
+            <Link href="tel:3059155896">
               <HiPhoneIncoming className="text-lg sm:scale-[5] scale-[3] text-green-600" />
             </Link>
           </div>

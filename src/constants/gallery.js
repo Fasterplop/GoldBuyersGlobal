@@ -1,4 +1,14 @@
-import { heroImage, ring, ring2, necklace, necklace2 } from "@/images";
+import {
+  heroImage,
+  ring,
+  ring2,
+  necklace,
+  necklace2,
+  necklaces,
+  necklacegold,
+  ringsgold,
+  diamondrings,
+} from "@/images";
 
 export const galleryImages = [
   {
@@ -18,19 +28,19 @@ export const galleryImages = [
     title: necklace2,
   },
   {
-    id: heroImage,
-    title: heroImage,
+    id: necklaces,
+    title: necklaces,
   },
   {
-    id: heroImage,
-    title: heroImage,
+    id: necklacegold,
+    title: necklacegold,
   },
   {
-    id: heroImage,
-    title: heroImage,
+    id: ringsgold,
+    title: ringsgold,
   },
   {
-    id: heroImage,
-    title: heroImage,
+    id: diamondrings,
+    title: diamondrings,
   },
 ];

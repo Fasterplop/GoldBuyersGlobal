@@ -3,7 +3,7 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { heroImage } from "@/images";
+import { jeweler } from "@/images";
 import { HiPhoneIncoming } from "react-icons/hi";
 import { Fade } from "react-awesome-reveal";
 
@@ -32,7 +32,7 @@ const repairs = () => {
                 </h1>
                 <p className=" font-montserrat leading-8 text-[16px] sm:text-[20px] text-[#444444] mb-4">
                   At <strong>GoldBuyersGlobal</strong>, we specialize in working
-                  with gold, platinum, and silver to repair and restore your
+                  with gold, platinum and silver to repair and restore your
                   cherished jewelry pieces. We offer a wide range of repair
                   services to help you keep your beloved pieces in top
                   condition. We have 40 years of experience and can handle
@@ -40,21 +40,18 @@ const repairs = () => {
                   work.
                 </p>
                 <ul className="font-montserrat mx-10 text-start list-disc text-[16px] sm:text-[20px] leading-8">
-                  <li>Ring resizing</li>
                   <li>Stone Replacement</li>
                   <li>Prong Repair</li>
                   <li>Polishing and cleaning</li>
                   <li>Chain, hinge and clasp repair</li>
-                  <li>Custom design</li>
-                  <li>and More...</li>
                 </ul>
               </div>
 
               <Image
-                src={heroImage}
-                width={350}
-                height={350}
-                className="min-w-[350px] max-w-[500px] min-h-[350px] max-h-[500px] mx-auto sm:mx-0"
+                src={jeweler}
+                width={400}
+                height={400}
+                className=" rounded-full min-w-[350px] max-w-[500px] min-h-[350px] max-h-[500px] mx-auto sm:mx-0"
               />
             </div>
           </Fade>
@@ -69,7 +66,7 @@ const repairs = () => {
 
         {/* call button */}
         <div className=" z-50 animate-bounce fixed bottom-10 sm:bottom-20 right-10 sm:right-20">
-          <Link href="tel:786-498-9035">
+          <Link href="tel:3059155896">
             <HiPhoneIncoming className="text-lg sm:scale-[5] scale-[3] text-green-600" />
           </Link>
         </div>

@@ -6,7 +6,6 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 import { galleryImages } from "@/constants/gallery";
 import { HiPhoneIncoming } from "react-icons/hi";
 import Link from "next/link";
-import { Fade } from "react-awesome-reveal";
 
 const gallery = () => {
   const [model, setModel] = useState(false);
@@ -30,35 +29,33 @@ const gallery = () => {
 
       <Layout>
         <section id="Gallery" className="sm:px-16 px-6 text-justify py-6">
-          <Fade triggerOnce="true" duration="2000">
-            <h1 className="text-center font-raleway font-bold text-[20px] sm:text-[28px] m-2 ">
-              Gallery
-            </h1>
+          <h1 className="text-center font-raleway font-bold text-[20px] sm:text-[28px] m-2 ">
+            Gallery
+          </h1>
 
-            <div className={model ? "model open" : "model"}>
-              <Image src={tempImgSrc} />
-              <AiOutlineCloseCircle onClick={() => setModel(false)} />
-            </div>
+          <div className={model ? "model open" : "model"}>
+            <Image src={tempImgSrc} />
+            <AiOutlineCloseCircle onClick={() => setModel(false)} />
+          </div>
 
-            {/* px-[30px] sm:px-16 md:px-40 */}
-            <div className="gallery xl:mx-40">
-              {galleryImages.map((item, index) => {
-                return (
-                  <div
-                    className="pics"
-                    key={index}
-                    onClick={() => getImg(item.title)}
-                  >
-                    <Image
-                      src={item.title}
-                      alt={item.id}
-                      className="w-[100%] h-auto sm:w-[300px] sm:h-[300px] hover:bg-gray-400 object-contain bg-gray-300 shadow-xl "
-                    />
-                  </div>
-                );
-              })}
-            </div>
-          </Fade>
+          {/* px-[30px] sm:px-16 md:px-40 */}
+          <div className="gallery xl:mx-40">
+            {galleryImages.map((item, index) => {
+              return (
+                <div
+                  className="pics"
+                  key={index}
+                  onClick={() => getImg(item.title)}
+                >
+                  <Image
+                    src={item.title}
+                    alt={item.id}
+                    className="w-[100%] h-auto sm:w-[300px] sm:h-[300px] hover:bg-gray-400  bg-gray-300 object-contain shadow-xl "
+                  />
+                </div>
+              );
+            })}
+          </div>
         </section>
 
         {/* call us text */}
@@ -70,7 +67,7 @@ const gallery = () => {
 
         {/* call button */}
         <div className=" z-50 animate-bounce fixed bottom-10 sm:bottom-20 right-10 sm:right-20">
-          <Link href="tel:786-498-9035">
+          <Link href="tel:3059155896">
             <HiPhoneIncoming className="text-lg sm:scale-[5] scale-[3] text-green-600" />
           </Link>
         </div>
