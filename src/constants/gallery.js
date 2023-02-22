@@ -1,46 +1,145 @@
 import {
-  heroImage,
-  ring,
-  ring2,
-  necklace,
-  necklace2,
-  necklaces,
-  necklacegold,
-  ringsgold,
-  diamondrings,
+  one,
+  two,
+  three,
+  four,
+  five,
+  six,
+  seven,
+  eight,
+  nine,
+  ten,
+  eleven,
+  twelve,
+  thirteen,
+  fourteen,
+  fifteen,
+  sixteen,
+  seventeen,
+  eighteen,
+  nineteen,
+  twenty,
+  twentyone,
+  twentytwo,
+  twentythree,
+  twentyfour,
+  twentyfive,
+  twentysix,
+  twentyseven,
+  twentyeight,
 } from "@/images";
 
 export const galleryImages = [
   {
-    id: ring,
-    title: ring,
+    id: one,
+    title: one,
   },
   {
-    id: ring2,
-    title: ring2,
+    id: two,
+    title: two,
   },
   {
-    id: necklace,
-    title: necklace,
+    id: three,
+    title: three,
   },
   {
-    id: necklace2,
-    title: necklace2,
+    id: four,
+    title: four,
   },
   {
-    id: necklaces,
-    title: necklaces,
+    id: five,
+    title: five,
   },
   {
-    id: necklacegold,
-    title: necklacegold,
+    id: six,
+    title: six,
   },
   {
-    id: ringsgold,
-    title: ringsgold,
+    id: seven,
+    title: seven,
   },
   {
-    id: diamondrings,
-    title: diamondrings,
+    id: eight,
+    title: eight,
+  },
+  {
+    id: nine,
+    title: nine,
+  },
+  {
+    id: ten,
+    title: ten,
+  },
+  {
+    id: eleven,
+    title: eleven,
+  },
+  {
+    id: twelve,
+    title: twelve,
+  },
+  {
+    id: thirteen,
+    title: thirteen,
+  },
+  {
+    id: fourteen,
+    title: fourteen,
+  },
+  {
+    id: fifteen,
+    title: fifteen,
+  },
+  {
+    id: sixteen,
+    title: sixteen,
+  },
+  {
+    id: seventeen,
+    title: seventeen,
+  },
+  {
+    id: eighteen,
+    title: eighteen,
+  },
+  {
+    id: nineteen,
+    title: nineteen,
+  },
+  {
+    id: twenty,
+    title: twenty,
+  },
+  {
+    id: twentyone,
+    title: twentyone,
+  },
+  {
+    id: twentytwo,
+    title: twentytwo,
+  },
+  {
+    id: twentythree,
+    title: twentythree,
+  },
+  {
+    id: twentyfour,
+    title: twentyfour,
+  },
+  {
+    id: twentyfive,
+    title: twentyfive,
+  },
+  {
+    id: twentysix,
+    title: twentysix,
+  },
+  {
+    id: twentyseven,
+    title: twentyseven,
+  },
+  {
+    id: twentyeight,
+    title: twentyeight,
   },
 ];

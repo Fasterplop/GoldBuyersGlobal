@@ -8,7 +8,7 @@ const Card = (props) => {
       <Link href="/gallery">
         <div className=" font-raleway bg-gray-200 duration-500 group-hover:blur-sm group-hover:scale-[0.85] hover:!scale-100 hover:!blur-none cursor-pointer p-3 rounded-xl min-w-[230px] w-[230px] max-w-[250px]">
           <Image
-            className=" w-[185px] object-cover  h-[150px] mx-auto p-4 bg-gray-400 rounded-xl"
+            className="  object-contain h-[150px] mx-auto bg-gray-300 rounded-xl"
             src={props.image}
             alt="product"
             priority

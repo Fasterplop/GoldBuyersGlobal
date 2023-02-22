@@ -7,7 +7,7 @@ import Hero from "@/components/Hero";
 import Card from "@/components/Card";
 import Banner from "@/components/Banner";
 import Testimonials from "@/components/Testimonials";
-import { heroImage, ring, necklace, ring2, jeweler } from "@/images";
+import { heroImage, jeweler, one, twentyone, sixteen, joyeria } from "@/images";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { HiPhoneIncoming } from "react-icons/hi";
 import { Fade } from "react-awesome-reveal";
@@ -32,21 +32,21 @@ const index = () => {
             <section className="relative flex justify-center w-screen h-[400px] mx-auto">
               <div className="absolute -top-[40px] flex max-w-5xl mx-auto gap-6 group">
                 <Card
-                  image={ring2}
-                  productName="Diamond Ring"
+                  image={twentyone}
+                  productName="Rings"
                   productDesc="text description Lorem ipsum dolor sit amet, consectetur adipiscing
           elit"
                   className=" hidden sm:block"
                 />
                 <Card
-                  image={ring}
-                  productName="Ring"
+                  image={one}
+                  productName="Pendants"
                   productDesc="text description Lorem ipsum dolor sit amet, consectetur adipiscing
           elit"
                 />
                 <Card
-                  image={necklace}
-                  productName="Gold Necklace"
+                  image={sixteen}
+                  productName="Anklets"
                   productDesc="text description Lorem ipsum dolor sit amet, consectetur adipiscing
           elit"
                   className="hidden sm:block"
@@ -122,7 +122,7 @@ const index = () => {
 
           <Fade direction="right" duration="2000" triggerOnce="true">
             <section className="flex justify-center w-screen min-h-[500px] max-h-[940px] ">
-              <div className=" my-16 flex lg:flex-row-reverse flex-col justify-center">
+              <div className=" my-16 flex lg:flex-row-reverse flex-col justify-center items-center">
                 <div className=" lg:pl-20 px-6  pt-6 text-black font-montserrat text-center mb-16 lg:text-start min-w-[350px] max-w-[500px]">
                   <h1 className="pb-2 font-semibold text-[32px]">
                     Full-Service Jeweler
@@ -139,13 +139,13 @@ const index = () => {
                     See all services
                   </Link>
                 </div>
-                <div className="relative ">
-                  <div className="blur-sm absolute w-[400px] h-[400px] animate-pulse rounded-t-[100%] rounded-b-[100%] rounded-l-[110%] rounded-r-[115%] rotate-45 border-2 bg-gray-200" />
+                <div className="">
+                  {/* <div className=" blur-[150px] left-20 -z-10 absolute w-[200px] h-[300px] animate-pulse rounded-t-[100%] rounded-b-[100%] rounded-l-[110%] -top-10 rounded-r-[115%] rotate-45 border-2 bg-[#FFD700]" /> */}
                   <Image
-                    src={heroImage}
+                    src={joyeria}
                     width={400}
                     height={400}
-                    className=" mx-auto rotate-[-45deg] z-50"
+                    className=" rounded-t-2xl rounded-b-sm mx-auto  "
                   />
                 </div>
               </div>
