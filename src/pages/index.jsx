@@ -7,7 +7,7 @@ import Hero from "@/components/Hero";
 import Card from "@/components/Card";
 import Banner from "@/components/Banner";
 import Testimonials from "@/components/Testimonials";
-import { heroImage, jeweler, one, twentyone, sixteen, joyeria } from "@/images";
+import { jeweler, one, twentyone, sixteen, joyeria } from "@/images";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { HiPhoneIncoming } from "react-icons/hi";
 import { Fade } from "react-awesome-reveal";

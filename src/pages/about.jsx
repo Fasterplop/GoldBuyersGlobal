@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "@/Layouts/Layout";
 import Image from "next/image";
-import { heroImage } from "@/images";
+import { joyeria } from "@/images";
 import Head from "next/head";
 import { HiPhoneIncoming } from "react-icons/hi";
 import Link from "next/link";
@@ -48,9 +48,9 @@ const about = () => {
               </p>
 
               <Image
-                className="mx-auto my-6"
-                src={heroImage}
-                width={600}
+                className=" w-full mx-auto my-6"
+                src={joyeria}
+                width={800}
                 height={200}
               />
             </div>

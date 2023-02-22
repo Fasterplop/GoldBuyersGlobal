@@ -1,8 +1,7 @@
 import Layout from "@/Layouts/Layout";
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
-import { heroImage } from "@/images";
+
 import Head from "next/head";
 import { HiPhoneIncoming } from "react-icons/hi";
 import { Fade } from "react-awesome-reveal";
