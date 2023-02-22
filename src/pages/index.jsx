@@ -29,26 +29,23 @@ const index = () => {
 
           {/* Gallery Section (Not Page) */}
           <Fade direction="down" triggerOnce="true">
-            <section className="relative flex justify-center w-screen h-[400px] mx-auto">
+            <section className="relative flex justify-center w-screen h-[500px] mx-auto">
               <div className="absolute -top-[40px] flex max-w-5xl mx-auto gap-6 group">
                 <Card
                   image={twentyone}
                   productName="Rings"
-                  productDesc="text description Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit"
+                  productDesc="Gold rings are often used to symbolize love, commitment, and special occasions, making them the perfect gift for a loved one or a treat for yourself"
                   className=" hidden sm:block"
                 />
                 <Card
                   image={one}
                   productName="Pendants"
-                  productDesc="text description Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit"
+                  productDesc="Our pendants are often adorned with gemstones or intricate details, making them a beautiful and timeless accessory that can be worn for any occasion"
                 />
                 <Card
                   image={sixteen}
                   productName="Anklets"
-                  productDesc="text description Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit"
+                  productDesc="Step up your style game with our stunning gold anklets. Our collection use the highest quality materials to ensure lasting beauty and durability. "
                   className="hidden sm:block"
                 />
               </div>
