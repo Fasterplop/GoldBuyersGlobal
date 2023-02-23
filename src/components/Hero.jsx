@@ -1,5 +1,5 @@
 import React from "react";
-import { showcase, heroImage } from "@/images";
+import { showcase, heroImage, newHeroImage } from "@/images";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -42,7 +42,7 @@ const Hero = () => {
 
         <Image
           className=" w-[200px] md:w-[350px] lg:w-[500px] pb-16"
-          src={heroImage}
+          src={newHeroImage}
           alt="Main Product"
           priority
           quality={100}

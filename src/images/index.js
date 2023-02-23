@@ -3,7 +3,7 @@ import showcase from "./showcase.jpg";
 import heroImage from "./hero-image.png";
 import bannerImage from "./banner-image.png";
 import quotes from "./quotes.svg";
-
+import newHeroImage from "/public/newHeroImage.png";
 import jeweler from "/public/jeweler.png";
 import one from "/public/one.jpg";
 import two from "/public/two.jpg";
@@ -71,4 +71,5 @@ export {
   twentyseven,
   twentyeight,
   joyeria,
+  newHeroImage,
 };
