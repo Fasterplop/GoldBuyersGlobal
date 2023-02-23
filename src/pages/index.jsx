@@ -29,7 +29,7 @@ const index = () => {
 
           {/* Gallery Section (Not Page) */}
           <Fade direction="down" triggerOnce="true">
-            <section className="relative flex justify-center w-screen h-[500px] mx-auto">
+            <section className="relative flex justify-center w-screen h-[430px] mx-auto">
               <div className="absolute -top-[40px] flex max-w-5xl mx-auto gap-6 group">
                 <Card
                   image={twentyone}
