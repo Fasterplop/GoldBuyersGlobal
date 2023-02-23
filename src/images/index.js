@@ -5,7 +5,7 @@ import bannerImage from "./banner-image.png";
 import quotes from "./quotes.svg";
 
 import jeweler from "./jeweler.png";
-import one from "./one.JPG";
+import one from "/public/one.jpg";
 import two from "./2.JPG";
 import three from "./3.JPG";
 import four from "./4.JPG";
