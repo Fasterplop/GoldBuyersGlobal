@@ -6,7 +6,7 @@ import quotes from "./quotes.svg";
 
 import jeweler from "/public/jeweler.png";
 import one from "/public/one.jpg";
-import two from "/public/2.JPG";
+import two from "/public/two.jpg";
 import three from "/public/3.JPG";
 import four from "/public/4.JPG";
 import five from "/public/5.JPG";
