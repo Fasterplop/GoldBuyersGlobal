@@ -26,7 +26,7 @@ const Hero = () => {
             Expert Jewelry & Gold Services
           </h1>
           <h2 className="leading-6 text-gray-300 font-raleway font-bold text-[12px] sm:text-[16px]">
-            We have more than 40 years of experience, <br />
+            We have more than 40 years of experience <br />
             and expertise in the industry.
             {/* get the best deals and value for your precious items */}
           </h2>

@@ -32,8 +32,8 @@ const repairs = () => {
                 </h1>
                 <p className=" font-montserrat leading-8 text-[16px] sm:text-[20px] text-[#444444] mb-4">
                   At <strong>GoldBuyersGlobal</strong>, we specialize in working
-                  with gold, platinum and silver to repair and restore your
-                  cherished jewelry pieces. We offer a wide range of repair
+                  with gold, platinum and silver. We will repair and restore
+                  your cherished jewelry. We offer a wide range of repair
                   services to help you keep your beloved pieces in top
                   condition. We have 40 years of experience and can handle
                   everything from simple ring sizing to complex restoration

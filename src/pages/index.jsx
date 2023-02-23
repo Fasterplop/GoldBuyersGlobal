@@ -75,10 +75,10 @@ const index = () => {
                     Repair Services
                   </h1>
                   <p className="leading-[28px] text-[20px] text-[#e1e1e1b3]">
-                    We have the ability to perform many repair services, bring
+                    We have the ability to perform many repair services. Bring
                     us your jewelry and watches and we will provide a{" "}
                     <strong>FREE</strong> estimate for any repairs necessary.
-                    Wether the work is big or small we've got you covered.
+                    Whether the work is big or small we've got you covered.
                     {/* We can repair most of your treasured jewelry right in our
                     stores including rings, necklaces, earrings, bracelets and
                     watches. Whether your job is big or small, we've got you
@@ -129,8 +129,8 @@ const index = () => {
                     specialize in buying, selling and repairing jewelry. Our
                     team is led by <strong>Jose Mejia</strong>, an experienced
                     jeweler who has been working in the industry for over 40
-                    years. Wether you are looking to sell or buy jewelry you can
-                    count on us to provide great service and value.
+                    years. Whether you are looking to sell or buy jewelry you
+                    can count on us to provide great service and value.
                   </p>
                   <Link href="/about" className=" underline font-bold ">
                     See all services

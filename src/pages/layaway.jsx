@@ -26,16 +26,16 @@ const layaway = () => {
                 Layaway
               </h1>
               <p className="text-[16px] sm:text-[20px] font-montserrat leading-8 text-[#444444]">
-                At our store, we understand that purchasing jewelry can be a big
-                investment. That's why we offer a convenient layaway program to
-                help make buying your dream piece a reality. Our layaway program
-                allows you to make payments over a period of time, with a small
-                down payment. This way, you can secure the piece you want and
-                pay for it over time without having to make a full payment
-                upfront. Our layaway program is easy to use and flexible, with a
-                payment schedule that can be tailored to meet your needs. With
-                bargain prices and with extended time to pay, you can own the
-                jewelry you desire.
+                We understand that purchasing jewelry can be a big investment.
+                That's why we offer a convenient layaway program to help make
+                buying your dream piece a reality. Our layaway program allows
+                you to make payments over a period of time, with a small down
+                payment. This way, you can secure the piece you want and pay for
+                it over time without having to make a full payment upfront. Our
+                layaway program is easy to use and flexible with a payment
+                schedule that can be tailored to meet your needs. With bargain
+                prices and with extended time to pay, you can own the jewelry
+                you desire.
               </p>
             </div>
 
