@@ -18,6 +18,10 @@ const index = () => {
       <Head>
         <title>Gold Buyers Global</title>
         <meta
+          name="google-site-verification"
+          content="7hLRvSntM-D-HVN-raPqiQY9Se3hwSWCu_gL9kymFro"
+        />
+        <meta
           name="description"
           content="GOLD BUYERS GLOBAL is a licensed, honest and high-paying buyer of gold, platinum and silver in the state of florida. Your GOLD is MONEY with us. Visit us at any of our locations and discover what your Gold is worth"
         />
