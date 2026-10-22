@@ -28,7 +28,6 @@ const Hero = () => {
           <h2 className="leading-6 text-gray-300 font-raleway font-bold text-[12px] sm:text-[16px]">
             We have more than 40 years of experience <br />
             and expertise in the industry.
-            {/* get the best deals and value for your precious items */}
           </h2>
 
           <div className="flex justify-center">
@@ -40,12 +39,15 @@ const Hero = () => {
           </div>
         </div>
 
+        {/* AQUÍ ESTABA EL ERROR: Se añadieron width y height */}
         <Image
           className=" w-[200px] md:w-[350px] lg:w-[500px] pb-16"
           src={newHeroImage}
           alt="Main Product"
           priority
           quality={100}
+          width={600}
+          height={600}
         />
       </div>
     </section>
