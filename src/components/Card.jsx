@@ -7,10 +7,13 @@ const Card = (props) => {
     <div className={`${props.className} text-center`}>
       <Link href="/gallery">
         <div className=" font-raleway bg-gray-200 duration-500 group-hover:blur-sm group-hover:scale-[0.85] hover:!scale-100 hover:!blur-none cursor-pointer p-3 rounded-xl min-w-[230px] w-[230px] max-w-[250px]">
+          {/* CORRECCIÓN: Se añadieron width y height */}
           <Image
-            className="  object-contain h-[150px] mx-auto bg-gray-300 rounded-xl"
+            className=" object-contain h-[150px] mx-auto bg-gray-300 rounded-xl"
             src={props.image}
             alt="product"
+            width={300}
+            height={300}
             priority
           />
 

@@ -34,11 +34,19 @@ const gallery = () => {
           </h1>
 
           <div className={model ? "model open" : "model"}>
-            <Image src={tempImgSrc} />
+            {/* CORRECCIÓN: Añadido width y height para el modal */}
+            {tempImgSrc && (
+              <Image 
+                src={tempImgSrc} 
+                alt="Enlarged view" 
+                width={1000} 
+                height={1000} 
+                className="object-contain max-h-screen"
+              />
+            )}
             <AiOutlineCloseCircle onClick={() => setModel(false)} />
           </div>
 
-          {/* px-[30px] sm:px-16 md:px-40 */}
           <div className="gallery xl:mx-40">
             {galleryImages.map((item, index) => {
               return (
@@ -47,10 +55,13 @@ const gallery = () => {
                   key={index}
                   onClick={() => getImg(item.title)}
                 >
+                  {/* CORRECCIÓN: Añadido width y height para las miniaturas */}
                   <Image
                     src={item.title}
-                    alt={item.id}
-                    className="w-[100%] h-auto sm:w-[300px] sm:h-[300px] hover:bg-gray-400  bg-gray-300 object-contain shadow-xl "
+                    alt={`Gallery item ${index}`}
+                    width={300}
+                    height={300}
+                    className="w-[100%] h-auto sm:w-[300px] sm:h-[300px] hover:bg-gray-400 bg-gray-300 object-contain shadow-xl"
                   />
                 </div>
               );
